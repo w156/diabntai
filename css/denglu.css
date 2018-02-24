@@ -1,0 +1,216 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	width: 100%;
+	overflow-x: hidden;
+	font-family: "苹方 San Francisco Display"
+}
+.deng{
+	width: 100%;
+	height: 13.4rem;
+	background: #fb5252;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+.deng .zu3 img{
+	width: 0.2rem;
+	height: 0.36rem;
+	/* background: yellow; */
+	margin-top: 0.24rem;
+	margin-left: 0.24rem;
+	float: left;
+}
+/* .deng .yo3{
+	width: 1rem;
+	height: 0.3rem;
+	background: blue;
+	margin-top: 0.24rem;
+	margin-left: 6.28rem;
+} */
+.deng .yo3{
+	width: 1rem;
+	height: 0.3rem;
+	font-size: 0.24rem;
+	color: #fff;
+	margin-top: -0.3rem;
+	margin-left: 6.7rem;
+	float: left;
+	display: block;
+}
+.tou{
+	width: 1.56rem;
+	height: 1.56rem;
+	/* background: blue; */
+	position: fixed;
+	top: 1.49rem;
+	left: 2.97rem;
+	z-index: 4;
+	float: left;
+}
+.tou img{
+	width: 1.56rem;
+	height: 1.56rem;
+	/* background: blue; */
+	position: fixed;
+	top: 1.49rem;
+	left: 2.97rem;
+	z-index: 4;
+	float: left;
+}
+.huan{
+	width: 6.06rem;
+	height: 7.76rem;
+	background: #fff;
+	border-radius: 0.08rem;
+	position: fixed;
+	top: 2.26rem;
+	left: 0.72rem;
+	z-index: 3;
+}
+.huan .hu{
+	font-size: 0.24rem;
+	color: #fb5252;
+	position: fixed;
+	top: 3.89rem;
+	left: 3.26rem;
+	z-index: 3;
+}
+.huan .hu1{
+	font-size: 0.24rem;
+	color: #fe7878;
+	position: fixed;
+	top: 4.2rem;
+	left: 2.79rem;
+	z-index: 3;
+}
+
+.huan input{
+	width: 4.7rem;
+	height: 0.76rem;
+	background: #fff;
+	margin-top: 3.1rem;
+	margin-left: 0.3rem;
+	border-radius: 0.08rem;
+	border: 0.04rem solid #42b9ff;
+	padding-left: 0.71rem;
+}
+.huan img{
+	width: 0.42rem;
+	height: 0.37rem;
+	float: left;
+	margin-top: -1rem;
+	margin-left: 0.24rem;
+	position: absolute;
+	padding-left: 0.2rem;
+	padding-top: 0.42rem;
+}
+.huan .t{
+	width: 4.7rem;
+	height: 0.76rem;
+	background: #fff;
+	margin-top: 0.24rem;
+	margin-left: 0.3rem;
+	border-radius: 0.08rem;
+	border: 0.04rem solid #42b9ff;
+	padding-left: 0.71rem;
+}
+.huan .t1{
+	width: 0.42rem;
+	height: 0.37rem;
+	float: left;
+	margin-top: -1rem;
+	margin-left: 0.24rem;
+	position: absolute;
+	padding-left: 0.2rem;
+	padding-top: 0.42rem;
+}
+.huan .t2{
+	width: 0.42rem;
+	height: 0.37rem;
+	float: left;
+	margin-top: -1rem;
+	margin-left: 4.9rem;
+	position: absolute;
+	padding-left: 0.2rem;
+	padding-top: 0.42rem;
+}
+.huan .w{
+	font-size: 0.2rem;
+	color: #fb5252;
+	margin-left: 4.6rem;
+	margin-top: 0.12rem;
+}
+
+.li{
+	width: 5.04rem;
+	height: 0.76rem;
+	background: #fb5252;
+	border-radius: 25rem;
+	position: fixed;
+	top: 8.4rem;
+	left: 1.25rem;
+	z-index: 3;
+}
+.li a{
+	font-size: 0.28rem;
+	color: #fff;
+	float: left;
+	margin-top: 0.19rem;
+	margin-left: 1.9rem;
+}
+.di .d{
+	font-size: 0.28rem;
+	color: #fff;
+	position: fixed;
+	top: 8.4rem;
+	left: 1.25rem;
+	z-index: 3;
+	float: left;
+	margin-top: 2.6rem;
+	margin-left: 1.8rem;
+}
+.di .san{
+	width: 5.12rem;
+	height: 0.84rem;
+	/* background: yellow; */
+	position: fixed;
+	top: 11.6rem;
+	left: 1.25rem;
+	z-index: 3;
+}
+.di .san img{
+	width: 0.82rem;
+	height: 0.82rem;
+	margin-top: 0rem;
+	float: left;
+}
+.di .san1 img{
+	width: 0.82rem;
+	height: 0.82rem;
+	margin-top: 0rem;
+	float: left;
+	position: fixed;
+	top: 11.6rem;
+	left: 1.25rem;
+	z-index: 3;
+	margin-left: 2.15rem;
+}
+.di .san2 img{
+	width: 0.82rem;
+	height: 0.82rem;
+	margin-top: 0rem;
+	float: left;
+	position: fixed;
+	top: 11.6rem;
+	left: 1.25rem;
+	z-index: 3;
+	margin-left: 4.3rem;
+}

@@ -1,0 +1,308 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	width: 100%;
+	overflow-x: hidden;
+	font-family: "Æ»·½ San Francisco Display"
+}
+.dao2{
+	width: 100%;
+	height: 0.88rem;
+	background: #fb5252;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 4;
+}
+.dao2 .fan1{
+	width: 0.16rem;
+	height: 0.28rem;
+	/* background: blue; */
+	margin-top: 0.3rem;
+	margin-left: 0.24rem;
+}
+.dao2 .fan1 img{
+	width: 0.16rem;
+	height: 0.28rem;
+	margin-top: 0rem;
+	margin-left: 0rem;
+	display: block;
+	float: left;
+}
+.dao2 .guan1{
+	font-size: 0.36rem;
+	color: #fff;
+	margin-top: -0.35rem;
+	margin-left: 3.38rem;
+}
+.dao2 .so1{
+	width: 0.36rem;
+	height: 0.36rem;
+	/* background: blue; */
+	margin-top: -0.38rem;
+	margin-left: 6.9rem;
+	display: block;
+	float: left;
+}
+.dao2 .so1 img{
+	width: 0.8rem;
+	height: 0.8rem;
+	margin-top: -0.22rem;
+	margin-left: -0.21rem;
+	display: block;
+	float: left;
+}
+.ye{
+	width: 100%;
+	height: 2rem;
+	/* background: red; */
+	margin-top: 1.76rem;
+}
+.ye .zu1{
+	width: 2.49rem;
+	height: 2.66rem;
+	/* background: #333; */
+	position: absolute;
+	top: 1.16rem;
+	left: 0.48rem;
+	bottom: 0;
+	z-index: 3;
+}
+.ye .zu1 img{
+	width: 2.49rem;
+	height: 2.66rem;
+	top: 1.2rem;
+	display: block;
+	float: left;
+}
+.ye .yo1{
+	width: 3.16rem;
+	height: 1.43rem;
+	/* background: #fff; */
+	margin-left: 3.2rem;
+	margin-top: 0.32rem;
+	float: left;
+}
+.ye .yo1 .yeting{
+	font-size: 0.26rem;
+	color: #2f3440;
+}
+.ye .yo1 .zhu{
+	width: 3.16rem;
+	height: 0.22rem;
+	/* background: blue; */
+	margin-top: 0.24rem;
+}
+.ye .yo1 .zhu .zhub{
+	font-size: 0.22rem;
+	color: #a8abad;
+}
+.ye .yo1 .zhu .zhub1{
+	font-size: 0.22rem;
+	color: #a8abad;
+	margin-top: -0.25rem;
+	margin-left: 0.56rem;
+}
+.ye .yo1 .zhu .zhub2{
+	font-size: 0.22rem;
+	color: #a8abad;
+	margin-top: -0.25rem;
+	margin-left: 1.56rem;
+}
+.ye .yo1 .zhu .zhub3{
+	font-size: 0.22rem;
+	color: #a8abad;
+	margin-top: -0.25rem;
+	margin-left: 2.06rem;
+}
+.ye .yo1 .xinqing{
+	width: 3.16rem;
+	height: 0.4rem;
+	/* background: #333; */
+	margin-top: 0.24rem;
+}
+.ye .yo1 .xinqing .ku{
+	width: 1.05rem;
+	height: 0.4rem;
+	background: #fb5252;
+	float: left;
+	border-radius: 0.08rem;
+}
+.ye .yo1 .xinqing .ku .xin{
+	font-size: 0.2rem;
+	color: #fff;
+	margin-top: 0.09rem;
+	margin-left: 0.12rem;
+}
+.ye .yo1 .xinqing .ku .xin1{
+	font-size: 0.2rem;
+	color: #fff;
+	margin-top: 0.09rem;
+	margin-left: 0.3rem;
+}
+.nei{
+	width: 7.02rem;
+	height: 2.01rem;
+	/* background: yellow; */
+	margin-top: 0.54rem;
+	margin-left: 0.24rem;
+}
+.nei .xiang{
+	font-size: 0.26rem;
+	color: #2f3440;
+}
+.nei .xian{
+	width: 7.02rem;
+	border: 0.01rem dashed #5a5f67;
+	margin-top: 0.24rem;
+}
+.nei .neir{
+	font-size: 0.26rem;
+	color: #272c38;
+	margin-top: 0.22rem;
+}
+.nei .lai p{
+	font-size: 0.22rem;
+	color: #535a5f;
+	margin-top: 0.22rem;
+	/* margin-left: 0.06rem; */
+}
+.nei .xian1{
+	width: 7.02rem;
+	border: 0.01rem dashed #5a5f67;
+	margin-top: 0.24rem;
+}
+.pindao{
+	width: 7.02rem;
+	height: 1.61rem;
+	/* background: yellow; */
+	margin-top: 0.24rem;
+	margin-left: 0.24rem;
+}
+.pindao .tu{
+	width: 1rem;
+	height: 1rem;
+	background: red;
+}
+.pindao .tu img{
+	width: 1rem;
+	height: 1rem;
+	background: red;
+}
+.pindao .yet{
+	font-size: 0.24rem;
+	color: #6d7073;
+	margin-top: -0.8rem;
+	margin-left: 1.2rem;
+}
+.pindao .yi{
+	font-size: 0.22rem;
+	color: #fb5252;
+	margin-top: 0.16rem;
+	margin-left: 1.2rem;
+}
+.pindao .shou p{
+	font-size: 0.22rem;
+	color: #535a5f;
+	margin-top: 0.24rem;
+}
+.pindao .xian2{
+	width: 7.02rem;
+	border: 0.01rem dashed #5a5f67;
+	margin-top: 0.24rem;
+}
+.lie{
+	width: 7.02rem;
+	height: 7.43rem;
+	/* background: yellow; */
+	margin-top: 0.24rem;
+	margin-left: 0.24rem;
+}
+.lie .kuai{
+	width: 7.02rem;
+	height: 1.2rem;
+	/* background: blue; */
+	margin-top: 0.24rem;
+	float: left;
+}
+.lie .kuai .zu2{
+	width: 1rem;
+	height: 1rem;
+	background: #333;
+}
+.lie .kuai .zu2 img{
+	width: 1rem;
+	height: 1rem;
+	background: #333;
+}
+.lie .kuai .yo2{
+	width: 5.22rem;
+	height: 0.86rem;
+	background: #fff;
+	margin-top: -0.92rem;
+	margin-left: 1.2rem;
+}
+.lie .kuai .yo2 .dian{
+	font-size: 0.24rem;
+	color: #272c38;
+}
+.lie .kuai .yo2 .jin{
+	font-size: 0.22rem;
+	color: #6d7073;
+	margin-top: 0.06rem;
+	margin-left: -0.1rem;
+}
+.lie .kuai .yo2 .shi{
+	width: 3.18rem;
+	height: 0.22rem;
+	/* background: red; */
+	margin-left: -0.2rem;
+	margin-top: 0.07rem;
+}
+.lie .kuai .yo2 .shi .riqitu{
+	width: 0.22rem;
+	height: 0.22rem;
+	/* background: #333; */
+}
+.lie .kuai .yo2 .shi .riqitu img{
+	width: 0.22rem;
+	height: 0.22rem;
+	margin-left: 0.19rem;
+	display: block;
+}
+.lie .kuai .yo2 .shi .riqi{
+	font-size: 0.20rem;
+	color: #fb5252;
+	margin-left: 0.46rem;
+	margin-top: -0.24rem;
+}
+.lie .kuai .yo2 .shi .bofangtu{
+	width: 0.22rem;
+	height: 0.22rem;
+	/* background: #333; */
+}
+.lie .kuai .yo2 .shi .bofangtu img{
+	width: 0.22rem;
+	height: 0.22rem;
+	display: block;
+	margin-left: 1.3rem;
+	margin-top: -0.2rem;
+}
+.lie .kuai .yo2 .shi .bofang{
+	font-size: 0.20rem;
+	color: #fb5252;
+	margin-left: 1.6rem;
+	margin-top: -0.23rem;
+}
+.lie .kuai .xian3{
+	width: 7.02rem;
+	border: 0.01rem dashed #5a5f67;
+	margin-top: 0.24rem;
+	margin-left: -1.2rem;
+}

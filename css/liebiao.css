@@ -1,0 +1,319 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	width: 100%;
+	overflow-x: hidden;
+	font-family: "苹方 San Francisco Display"
+}
+.dao1{
+	width: 100%;
+	height: 1.76rem;
+	background: #fb5252;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+.dao1 .fan{
+	width: 0.16rem;
+	height: 0.28rem;
+	/* background: blue; */
+	margin-top: 0.3rem;
+	margin-left: 0.24rem;
+}
+.dao1 .fan img{
+	width: 0.16rem;
+	height: 0.28rem;
+	margin-top: 0rem;
+	margin-left: 0rem;
+	display: block;
+	float: left;
+}
+.dao1 .guan{
+	font-size: 0.36rem;
+	color: #fff;
+	margin-top: -0.35rem;
+	margin-left: 3.38rem;
+}
+.dao1 .so{
+	width: 0.36rem;
+	height: 0.36rem;
+	/* background: blue; */
+	margin-top: -0.38rem;
+	margin-left: 6.9rem;
+	display: block;
+	float: left;
+}
+.dao1 .so img{
+	width: 0.8rem;
+	height: 0.8rem;
+	margin-top: -0.22rem;
+	margin-left: -0.21rem;
+	display: block;
+	float: left;
+}
+.dao1 .kuan{
+	width: 7.02rem;
+	height: 0.6rem;
+	/* background: #333; */
+	margin-top: 0.4rem;
+	margin-left: 0.24rem;
+}
+.dao1 .kuan .min{
+	width: 2.34rem;
+	height: 0.6rem;
+	background: #fff;
+	border-radius: 0.08rem 0 0 0.08rem;
+}
+.dao1 .kuan .min a{
+	font-size: 0.26rem;
+	color: #fb5252;
+	margin-left: 0.79rem;
+	margin-top: 0.15rem;
+	display: block;
+	float: left;
+}
+.dao1 .kuan .min1{
+	width: 2.34rem;
+	height: 0.524rem;
+	border: 0.04rem solid #fff;
+	margin-left: 2.34rem;
+	margin-top: -0.6rem;
+	/* background: #fff; */
+	/* border-radius: 0.08rem 0 0 0.08rem; */
+}
+.dao1 .kuan .min1 a{
+	font-size: 0.26rem;
+	color: #fff;
+	margin-left: 0.79rem;
+	margin-top: 0.12rem;
+	display: block;
+	float: left;
+}
+.dao1 .kuan .min2{
+	width: 2.22rem;
+	height: 0.524rem;
+	/* background: #fff; */
+	border: 0.04rem solid #fff;
+	border-radius: 0 0.08rem 0.08rem 0;
+	margin-left: 4.73rem;
+	margin-top: -0.6rem;
+}
+.dao1 .kuan .min2 a{
+	font-size: 0.26rem;
+	color: #fff;
+	margin-left: 0.72rem;
+	margin-top: 0.12rem;
+	display: block;
+	float: left;
+}
+.liebiao{
+	width: 7.02rem;
+	height: 2rem;
+	background: #fff;
+	margin-top: 2.24rem;
+	margin-left: 0.24rem;
+	box-shadow: 0 0.009rem 0.4rem rgba(242, 72, 72, 0.1);
+}
+.liebiao .zu{
+	width: 1.85rem;
+	height: 1.77rem;
+	margin-left: -0.1rem;
+}
+.liebiao .zu img{
+	width: 1.85rem;
+	height: 1.77rem;
+	margin-left: 0.24rem;
+	margin-top: -0.22rem;
+}
+.liebiao .yo{
+	width: 4.79rem;
+	height: 1.1rem;
+	/* background: red; */
+	margin-left: 2.22rem;
+	margin-top: -1.35rem;
+	/* position: fixed; */
+}
+.liebiao .yo .biao{
+	font-size: 0.26rem;
+	color: #2d3237;
+}
+.liebiao .yo .wen{
+	font-size: 0.22rem;
+	color: #7d8083;
+	margin-top: 0.08rem;
+}
+.liebiao .yo .xia{
+	width: 3.95rem;
+	/* height: 0.01rem; */
+	/* background: yellow; */
+	border: 0.01rem dashed #ff9595;
+	margin-top: 0.11rem;
+	margin-left: 0rem;
+}
+.liebiao .yo .bo{
+	width: 0.95rem;
+	height: 0.2rem;
+	/* background: #333; */
+	margin-top: 0.14rem;
+}
+.liebiao .yo .bo img{
+	width: 0.22rem;
+	height: 0.22rem;
+	display: block;
+	margin-left: -0.03rem;
+}
+.liebiao .yo .bo .bof{
+	font-size: 0.20rem;
+	color: #fb5252;
+	margin-left: 0.25rem;
+	margin-top: -0.24rem;
+}
+.liebiao .yo .xiaz2{
+	width: 1.84rem;
+	height: 0.03rem;
+	/* background: red; */
+	position: absolute;
+	right: 0.8rem;
+	top: 3.3rem;
+	left: 6.52rem;
+	display: block;
+}
+/* .liebiao .yo .xiaz2{
+	margin-left: 4.08rem;
+}
+.liebiao .yo .xiaz2 img{
+	width: 1.16rem;
+	height: 1.16rem;
+	overflow: hidden;
+} */
+
+
+.liebiao1{
+	width: 7.02rem;
+	height: 2rem;
+	background: #fff;
+	margin-top: 0.48rem;
+	margin-left: 0.24rem;
+	box-shadow: 0 0.009rem 0.4rem rgba(242, 72, 72, 0.1);
+}
+.liebiao1 .zu{
+	width: 1.85rem;
+	height: 1.77rem;
+	margin-left: -0.1rem;
+}
+.liebiao1 .zu img{
+	width: 1.85rem;
+	height: 1.77rem;
+	margin-left: 0.24rem;
+	margin-top: -0.22rem;
+}
+.liebiao1 .yo{
+	width: 4.79rem;
+	height: 1.1rem;
+	/* background: red; */
+	margin-left: 2.22rem;
+	margin-top: -1.35rem;
+	/* position: fixed; */
+}
+.liebiao1 .yo .biao{
+	font-size: 0.26rem;
+	color: #2d3237;
+}
+.liebiao1 .yo .wen{
+	font-size: 0.22rem;
+	color: #7d8083;
+	margin-top: 0.08rem;
+}
+.liebiao1 .yo .xia{
+	width: 3.95rem;
+	/* height: 0.01rem; */
+	/* background: yellow; */
+	border: 0.01rem dashed #ff9595;
+	margin-top: 0.11rem;
+	margin-left: 0rem;
+}
+.liebiao1 .yo .bo{
+	width: 0.95rem;
+	height: 0.2rem;
+	/* background: #333; */
+	margin-top: 0.14rem;
+}
+.liebiao1 .yo .bo img{
+	width: 0.22rem;
+	height: 0.22rem;
+	display: block;
+	margin-left: -0.03rem;
+}
+.liebiao1 .yo .bo .bof{
+	font-size: 0.20rem;
+	color: #fb5252;
+	margin-left: 0.25rem;
+	margin-top: -0.24rem;
+}
+.liebiao1 .yo .xiaz3{
+	width: 1.84rem;
+	height: 0.03rem;
+	/* background: red; */
+	position: absolute;
+	right: 0.8rem;
+	top: 5.8rem;
+	left: 6.52rem;
+	display: block;
+}
+.liebiao1 .yo .xiaz4{
+	width: 1.84rem;
+	height: 0.03rem;
+	/* background: red; */
+	position: absolute;
+	right: 0.8rem;
+	top: 8.26rem;
+	left: 6.52rem;
+	display: block;
+}
+.liebiao1 .yo .xiaz5{
+	width: 1.84rem;
+	height: 0.03rem;
+	/* background: red; */
+	position: absolute;
+	right: 0.8rem;
+	top: 10.73rem;
+	left: 6.52rem;
+	display: block;
+}
+.liebiao1 .yo .xiaz6{
+	width: 1.84rem;
+	height: 0.03rem;
+	/* background: red; */
+	position: absolute;
+	right: 0.8rem;
+	top: 13.2rem;
+	left: 6.52rem;
+	display: block;
+}
+.liebiao1 .yo .xiaz7{
+	width: 1.84rem;
+	height: 0.03rem;
+	/* background: red; */
+	position: absolute;
+	right: 0.8rem;
+	top: 15.7rem;
+	left: 6.52rem;
+	display: block;
+}
+.liebiao1 .yo .xiaz8{
+	width: 1.84rem;
+	height: 0.03rem;
+	/* background: red; */
+	position: absolute;
+	right: 0.8rem;
+	top: 18.16rem;
+	left: 6.52rem;
+	display: block;
+}

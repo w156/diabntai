@@ -1,0 +1,485 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	width: 100%;
+	overflow-x: hidden;
+	font-family: "苹方 San Francisco Display"
+}
+.dao2{
+	width: 100%;
+	height: 14.4rem;
+	background: #fb5252;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+.dao2 .fan1{
+	width: 0.16rem;
+	height: 0.28rem;
+	/* background: blue; */
+	margin-top: 0.3rem;
+	margin-left: 0.24rem;
+}
+.dao2 .fan1 img{
+	width: 0.16rem;
+	height: 0.28rem;
+	margin-top: 0rem;
+	margin-left: 0rem;
+	display: block;
+	float: left;
+}
+.dao2 .guan1{
+	font-size: 0.36rem;
+	color: #fff;
+	margin-top: -0.35rem;
+	margin-left: 3.04rem;
+}
+.dao2 .so1{
+	width: 0.36rem;
+	height: 0.36rem;
+	/* background: blue; */
+	margin-top: -0.38rem;
+	margin-left: 6.9rem;
+	display: block;
+	float: left;
+}
+.dao2 .so1 img{
+	width: 0.8rem;
+	height: 0.8rem;
+	margin-top: -0.22rem;
+	margin-left: -0.21rem;
+	display: block;
+	float: left;
+}
+.kuai6 .touxi{
+	width: 1.64rem;
+	height: 1.64rem;
+	/* background: blue; */
+	position: fixed;
+	top: 1.4rem;
+	left: 2.9rem;
+	z-index: 3;
+}
+.kuai6 .touxi img{
+	width: 1.64rem;
+	height: 1.64rem;
+	/* background: blue; */
+	position: fixed;
+	top: 1.4rem;
+	left: 2.9rem;
+	z-index: 3;
+}
+.kuai6 .mimg6{
+	font-size: 0.28rem;
+	color: #fff;
+	position: fixed;
+	top: 3.4rem;
+	left: 3.02rem;
+	z-index: 3;
+}
+.kuai6 .zi{
+	font-size: 0.28rem;
+	color: #fff;
+	position: fixed;
+	top: 3.8rem;
+	left: 1.79rem;
+	z-index: 3;
+}
+.kuai7{
+	width: 7.02rem;
+	height: 2.25rem;
+	/* background: yellow; */
+	position: fixed;
+	top: 4.95rem;
+	left: 0.24rem;
+	z-index: 3; 
+}
+.kua{
+	width: 3.4rem;
+	height: 1.01rem;
+	background: #fff;
+	border-radius: 0.08rem;
+	position: fixed;
+}
+.kua .zuo{
+	width: 0.8rem;
+	height: 0.8rem;
+	/* background: blue; */
+	margin-left: 0.24rem;
+	margin-top: 0.12rem;
+}
+.kua .zuo img{
+	width: 0.8rem;
+	height: 0.8rem;
+	float: left;
+}
+.kua .you{
+	width: 2.2rem;
+	height: 0.5rem;
+	/* background: blue; */
+	margin-left: 1.26rem;
+	margin-top: -0.66rem;
+}
+.kua .you .you1{
+	font-size: 0.22rem;
+	color: #272c38;
+}
+.kua .you .you2{
+	font-size: 0.22rem;
+	color: #7d8083;
+}
+.kua1{
+	width: 3.4rem;
+	height: 1.01rem;
+	background: #fff;
+	border-radius: 0.08rem;
+	position: fixed;
+	margin-left: 3.62rem;
+	margin-top: 1.23rem;
+}
+.kua1 .zuo1{
+	width: 0.8rem;
+	height: 0.8rem;
+	/* background: blue; */
+	margin-left: 0.24rem;
+	margin-top: 0.12rem;
+}
+.kua1 .zuo1 img{
+	width: 0.8rem;
+	height: 0.8rem;
+	float: left;
+}
+.kua1 .you3{
+	width: 1.9rem;
+	height: 0.5rem;
+	/* background: blue; */
+	margin-left: 1.26rem;
+	margin-top: -0.66rem;
+}
+.kua1 .you3 .you1{
+	font-size: 0.22rem;
+	color: #272c38;
+}
+.kua1 .you3 .you2{
+	font-size: 0.22rem;
+	color: #7d8083;
+}
+
+.kua2{
+	width: 3.4rem;
+	height: 1.01rem;
+	background: #fff;
+	border-radius: 0.08rem;
+	position: fixed;
+	margin-top: 1.24rem;
+}
+.kua2 .zuo{
+	width: 0.8rem;
+	height: 0.8rem;
+	/* background: blue; */
+	margin-left: 0.24rem;
+	margin-top: 0.12rem;
+}
+.kua2 .zuo img{
+	width: 0.8rem;
+	height: 0.8rem;
+	float: left;
+}
+.kua2 .you{
+	width: 1.9rem;
+	height: 0.5rem;
+	/* background: blue; */
+	margin-left: 1.26rem;
+	margin-top: -0.66rem;
+}
+.kua2 .you .you1{
+	font-size: 0.22rem;
+	color: #272c38;
+}
+.kua2 .you .you2{
+	font-size: 0.22rem;
+	color: #7d8083;
+}
+
+
+.kua3{
+	width: 3.4rem;
+	height: 1.01rem;
+	background: #fff;
+	border-radius: 0.08rem;
+	position: fixed;
+	margin-left: 3.62rem;
+}
+.kua3 .zuo{
+	width: 0.8rem;
+	height: 0.8rem;
+	/* background: blue; */
+	margin-left: 0.24rem;
+	margin-top: 0.12rem;
+}
+.kua3 .zuo img{
+	width: 0.8rem;
+	height: 0.8rem;
+	float: left;
+}
+.kua3 .you{
+	width: 1.9rem;
+	height: 0.5rem;
+	/* background: blue; */
+	margin-left: 1.26rem;
+	margin-top: -0.66rem;
+}
+.kua3 .you .you1{
+	font-size: 0.22rem;
+	color: #272c38;
+}
+.kua3 .you .you2{
+	font-size: 0.22rem;
+	color: #7d8083;
+}
+.she1{
+	width: 7.02rem;
+	height: 4.05rem;
+	background: #fff;
+	border-radius: 0.08rem;
+	position: fixed;
+	top: 8.2rem;
+	left: 0.24rem;
+	z-index: 3;
+	
+}
+.she1 .she{
+	width: 7.02rem;
+	height: 0.4rem;
+	/* background: yellow; */
+	margin-top: 0.6rem;
+}
+.she1 .she .to{
+	width: 0.42rem;
+	height: 0.42rem;
+	float: left;
+	margin-top: -0.46rem;
+	margin-left: 0.2rem;
+}
+.she1 .she .to img{
+	width: 0.42rem;
+	height: 0.42rem;
+	float: left;
+	margin-top: 0.45rem;
+	/* margin-left: 0.2rem; */
+}
+.she1 .she .s{
+	font-size: 0.24rem;
+	color: #474f57;
+	margin-top: 0.07rem;
+	margin-left: 0.78rem;
+	float: left;
+}
+.she1 .she .cha{
+	font-size: 0.24rem;
+	color: #474f57;
+	margin-top: 0.07rem;
+	margin-left: 4rem;
+	float: left;
+}
+.she1 .she .f{
+	font-size: 0.24rem;
+	color: #474f57;
+	margin-top: -0.31rem;
+	margin-left: 6.6rem;
+	float: left;
+}
+.she1 .she .f img{
+	font-size: 0.24rem;
+	color: #474f57;
+	margin-top: -0.1rem;
+	margin-left: -0.1rem;
+	float: left;
+}
+
+
+.she1 .she2{
+	width: 7.02rem;
+	height: 0.4rem;
+	/* background: yellow; */
+	margin-top: 0.4rem;
+}
+.she1 .she2 .to{
+	width: 0.42rem;
+	height: 0.42rem;
+	float: left;
+	margin-top: -0.46rem;
+	margin-left: 0.2rem;
+}
+.she1 .she2 .to img{
+	width: 0.42rem;
+	height: 0.42rem;
+	float: left;
+	margin-top: 0.48rem;
+	/* margin-left: 0.2rem; */
+}
+.she1 .she2 .s{
+	font-size: 0.24rem;
+	color: #474f57;
+	margin-top: 0.07rem;
+	margin-left: 0.78rem;
+	float: left;
+}
+.she1 .she2 .f{
+	font-size: 0.24rem;
+	color: #474f57;
+	margin-top: -0.31rem;
+	margin-left: 6.6rem;
+	float: left;
+}
+.she1 .she2 .f img{
+	font-size: 0.24rem;
+	color: #474f57;
+	margin-top: -0.1rem;
+	margin-left: -0.1rem;
+	float: left;
+}
+
+.she1 .she3{
+	width: 7.02rem;
+	height: 0.4rem;
+	/* background: yellow; */
+	margin-top: 0.4rem;
+}
+.she1 .she3 .to{
+	width: 0.42rem;
+	height: 0.42rem;
+	float: left;
+	margin-top: -0.46rem;
+	margin-left: 0.2rem;
+}
+.she1 .she3 .to img{
+	width: 0.42rem;
+	height: 0.42rem;
+	float: left;
+	margin-top: 0.48rem;
+	/* margin-left: 0.2rem; */
+}
+.she1 .she3 .s{
+	font-size: 0.24rem;
+	color: #474f57;
+	margin-top: 0.07rem;
+	margin-left: 0.78rem;
+	float: left;
+}
+.she1 .she3 .f{
+	font-size: 0.24rem;
+	color: #474f57;
+	margin-top: -0.31rem;
+	margin-left: 6.6rem;
+	float: left;
+}
+.she1 .she3 .f img{
+	font-size: 0.24rem;
+	color: #474f57;
+	margin-top: -0.1rem;
+	margin-left: -0.1rem;
+	float: left;
+}
+.she1 .she4{
+	width: 7.02rem;
+	height: 0.4rem;
+	/* background: yellow; */
+	margin-top: 0.4rem;
+}
+.she1 .she4 .to{
+	width: 0.42rem;
+	height: 0.42rem;
+	float: left;
+	margin-top: -0.46rem;
+	margin-left: 0.2rem;
+}
+.she1 .she4 .to img{
+	width: 0.42rem;
+	height: 0.42rem;
+	float: left;
+	margin-top: 0.48rem;
+	/* margin-left: 0.2rem; */
+}
+.she1 .she4 .s{
+	font-size: 0.24rem;
+	color: #474f57;
+	margin-top: 0.07rem;
+	margin-left: 0.78rem;
+	float: left;
+}
+.she1 .she4 .cha{
+	font-size: 0.28rem;
+	color: #fb5252;
+	margin-top: 0.07rem;
+	margin-left: 4rem;
+	float: left;
+}
+.she1 .she4 .f{
+	font-size: 0.24rem;
+	color: #474f57;
+	margin-top: -0.31rem;
+	margin-left: 6.6rem;
+	float: left;
+}
+.she1 .she4 .f img{
+	font-size: 0.24rem;
+	color: #474f57;
+	margin-top: -0.1rem;
+	margin-left: -0.1rem;
+	float: left;
+	margin-bottom: 1.48rem;
+}
+.dibu{
+	width: 7.5rem;
+	height: 0.98rem;
+	background: #f6f6f6;
+	margin-top: 12rem;
+	/* position:relative; */
+	position: fixed;
+	/* top: 12.36rem; */
+	bottom: 0;
+	left: 0rem;
+	z-index: 20;
+	display: block;
+	/* margin-bottom: 1.48rem; */
+}
+.dibu .di{
+	width: 1.875rem;
+	height: 0.98rem;
+	/* background: red; */
+	float: left;
+}
+.dibu .di .shang{
+	width: 0.45rem;
+	height: 0.4rem;
+	/* background: #333; */
+}
+.dibu .di .shang img{
+	width: 0.45rem;
+	height: 0.4rem;
+	margin-left: 0.71rem;
+	margin-top: 0.13rem;
+	display: block;
+	/* line-height: 0.4rem; */
+	/* background: #333; */
+}
+.dibu .di .shou{
+	font-size: 0.24rem;
+	color: #7d8083;
+	margin-left: 0.69rem;
+	margin-top: 0.05rem;
+}
+.dibu .di .shou1{
+	font-size: 0.24rem;
+	color: #7d8083;
+	margin-left: 0.6rem;
+	margin-top: 0.05rem;
+}
